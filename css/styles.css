@@ -173,7 +173,44 @@ nav > div{
 
 }
 
-#about a:hover{
+#about a:hover, #benefits-link:hover{
     background-color: #EF7A2E;
     color: white;
 }
+
+#benefits1{
+    height: 100vh;
+    background-image: url("../img/b4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 65%;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+#benefit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#benefit-container div{
+    flex-basis: 15rem;
+    height: 40%;
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+    background-color: #EF7A2E;
+    opacity: 0.9;
+}
+
+#benefits-link{
+    text-transform: uppercase;
+    border: 2px solid #EF7A2E;
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    top: 80%;
+    left: 46%;
+}
+
