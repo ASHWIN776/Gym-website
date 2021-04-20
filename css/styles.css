@@ -204,6 +204,14 @@ nav > div{
     background-color: #EF7A2E;
     opacity: 0.9;
 }
+#benefit-container h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#benefit-container p{
+    font-style: italic;
+}
 
 #benefits-link{
     text-transform: uppercase;
