@@ -84,6 +84,7 @@ nav > div{
 .content p{
     line-height: 3rem;
     font-size: 1.4rem;
+    text-align: justify;
 }
 
 .content a{
@@ -222,3 +223,42 @@ nav > div{
     left: 46%;
 }
 
+#section3{
+    height: 100vh;
+    display: flex;
+}
+
+.section3-item{
+    flex-basis: 50%;
+} 
+
+
+.section3-item:nth-child(1){
+    background-color: #F0E3D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-item:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-item:nth-child(2) div{
+    width: 40rem;
+    padding: 1rem;
+}
+
+.section3-item:nth-child(2) h3{
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.section3-item:nth-child(2) p{
+    line-height: 2rem;
+    text-align: justify;
+}
