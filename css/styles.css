@@ -262,3 +262,38 @@ nav > div{
     line-height: 2rem;
     text-align: justify;
 }
+
+
+#join-now-section1{
+    background-color: #EF7A2E;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+#join-now-section1 div{
+    width: 50rem;
+    margin: 0 auto;
+}
+
+#join-now-section1 h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+#join-now-section1 p:first-of-type{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#join-now-section1 a{
+    background-color: white;
+    color: #EF7A2E;
+    padding: 0.6rem 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#join-now-section1 a:hover{
+    background-color: rgb(218, 214, 214);
+}
