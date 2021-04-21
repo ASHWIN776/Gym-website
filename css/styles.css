@@ -391,3 +391,67 @@ nav > div{
     display: flex;
     align-items: center;
 }
+
+#contact{
+    height: 100vh;
+    background-image: url("../img/contact-bg.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#contact .contact-content{
+    background-color: white;
+    width: 60rem;
+    height: 40rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    opacity: 0.9;
+}
+
+#contact h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+#contact form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact form div{
+    padding: 0.5rem 0;
+}
+#contact input{
+    height: 2rem;
+}
+
+#contact input, #contact textarea{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    font-size: 1.2rem;
+    border: 1px solid;
+}
+
+#submit{
+    padding: 0.5rem 2rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+
