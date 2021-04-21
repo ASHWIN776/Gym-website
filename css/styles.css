@@ -318,18 +318,18 @@ nav > div{
 }
 
 .join-item:nth-child(1) div{
-    margin: 0 1rem;
+    margin: 0 2rem 0 4rem;
 }
 
 .join-item:nth-child(1) h2{
     text-transform: uppercase;
     font-size: 2rem;
     margin: 0;
+    padding-bottom: 0.7rem;
     border-bottom: 2px solid;
 }
 .join-item:nth-child(1) a{
     display: inline-block;
-    margin-top: 0.3rem;
     border: 2px solid #EF7A2E;
     padding: 0.6rem 2.5rem;
     text-transform: uppercase;
