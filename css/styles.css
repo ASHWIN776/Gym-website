@@ -174,7 +174,7 @@ nav > div{
 
 }
 
-#about a:hover, #benefits-link:hover{
+#about a:hover, #benefits-link:hover, .join-item a:hover{
     background-color: #EF7A2E;
     color: white;
 }
@@ -297,3 +297,62 @@ nav > div{
 #join-now-section1 a:hover{
     background-color: rgb(218, 214, 214);
 }
+
+#join-now-section2{
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    position: relative;
+}
+
+.join-item:nth-child(1){
+    background-color: white;
+    height: 13rem;
+    width: 25rem;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.join-item:nth-child(1) div{
+    margin: 0 1rem;
+}
+
+.join-item:nth-child(1) h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+    border-bottom: 2px solid;
+}
+.join-item:nth-child(1) a{
+    display: inline-block;
+    margin-top: 0.3rem;
+    border: 2px solid #EF7A2E;
+    padding: 0.6rem 2.5rem;
+    text-transform: uppercase;
+}
+
+.join-item{
+    width: 50%;
+}
+
+.join-item:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-item:last-of-type{
+    color: white;
+    width: 30rem;
+}
+
+.join-item:last-of-type p{
+    line-height: 2rem;
+}
+
+
+
