@@ -174,7 +174,7 @@ nav > div{
 
 }
 
-#about a:hover, #benefits-link:hover, .join-item a:hover{
+#about a:hover, #benefits-link:hover, .join-button:hover{
     background-color: #EF7A2E;
     color: white;
 }
@@ -328,7 +328,8 @@ nav > div{
     padding-bottom: 0.7rem;
     border-bottom: 2px solid;
 }
-.join-item:nth-child(1) a{
+
+.join-button{
     display: inline-block;
     border: 2px solid #EF7A2E;
     padding: 0.6rem 2.5rem;
@@ -354,5 +355,39 @@ nav > div{
     line-height: 2rem;
 }
 
+#membership-benefits{
+    display: flex;
+    justify-content: center;
+}
 
+.membership-benefits-item{
+    flex-basis: 20rem;
+    margin: 0 1rem;
+    padding: 2rem 0;
+}
 
+.membership-benefits-item .benefit-content{
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.membership-benefits-item .social-profiles img{
+    width: 30px;
+    height: 30px;
+}
+
+.membership-benefits-item .social-profiles a{
+    margin: 0 0.5rem;
+}
+
+.membership-benefits-item:nth-child(2){
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.membership-benefits-item:last-of-type{
+    background-color: #F0E3D7;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
